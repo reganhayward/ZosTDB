@@ -1,0 +1,506 @@
+/*  CSS file for ZosTDB  */
+
+
+/* 
+-----Table of contents-----
+
+	1.	Text Styles
+	2.	Top Banner
+	3.	Navigation Menu
+	4.	Header
+	5.	Content
+	6.	Footer
+	7.	Tables
+	8.  Pagination
+
+---------------------------
+*/
+
+
+
+
+/*
+----------------------------------
+1.	Text Styles 
+----------------------------------
+*/
+
+
+/* ------Headings------*/
+h1 {
+	color: #365f95;
+	display: inline-block;	
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 10px 0;
+}
+
+h2 {
+	border-bottom: 1px dotted #ffffff;
+	color: #ffffff;
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica;
+	font-size: 24px;
+	font-weight: normal;	
+	padding: 5px 0 10px 0;
+	margin: 0 0 20px 0;
+}
+
+h3 {
+	border-bottom: 1px dotted #ffffff;
+	color:#365f95;
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica;
+	font-size: 20px;
+	font-weight: normal;	
+	padding: 5px 0 5px 4px;
+	margin: 0 0 15px 0;
+}
+
+h4 {
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica;
+	font-weight: bold;	
+	margin: 0 0 0 0;
+	padding: 5px 0 0 5px;
+}
+
+/*------General------*/
+body {
+	background: #DCDCDC;
+	color: #e4edf5;
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica;
+	font-size: 13px;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+		
+p {
+	color:#000000;
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica;
+	margin: 4px;
+	text-align:justify;
+}
+
+ol {
+	color:#000000;
+	font-family: 'Trebuchet MS', 'Helvetica Neue', Arial, Helvetica;
+	margin: 4px;
+	text-align: left;
+}
+
+
+
+
+
+/* 
+----------------------------------
+2.	Top Banner 
+----------------------------------
+*/
+
+
+#top_banner_wrapper {
+	background: #FFFFFF;
+	border-radius: 6px 6px 0px 0px;
+	clear: both;	
+	height: 120px;
+	margin: 0 auto;
+	width: 1100px;
+}
+
+#top_banner 
+{
+	height: 120px;
+	margin: 0 auto;
+	padding: 30px 20px 20px 20px; */
+	width: 1100px;
+}
+
+
+
+
+
+
+/* 
+----------------------------------
+3.	Navigation Menu 
+----------------------------------
+*/
+
+
+/*------Navigation Layout------*/
+#navigation_menu_wrapper {
+	background: #4699d2; /* Old browsers */
+  background: -moz-linear-gradient(top, #4699d2 0%, #365f95 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4699d2), color-stop(100%,#365f95));  /*Chrome,Safari4+*/ 
+  background: -webkit-linear-gradient(top, #4699d2 0%,#365f95 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4699d2 0%,#365f95 100%); /* Opera11.10+ */
+  background: linear-gradient(top, #4699d2 0%,#365f95 100%); /* W3C */
+	clear: both;	
+	height: 50px;
+	margin: 0 auto;
+	width: 1100px;
+}
+
+#navigation_menu {
+	height: 50px;
+	margin: 0 10px;
+	width: 1090px;
+}
+
+
+/*------Navigation Styles------*/
+#navigation_menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 3px 0 0 0;
+}
+
+#navigation_menu ul li a {
+	display: block;
+	font-size: 1.1em;
+	margin: 0 33px;
+	padding: 2px 0;
+	text-decoration: none;
+}
+
+#navigation_menu li .fast {
+	margin-left: 0px;
+}
+
+
+
+
+
+/* 
+----------------------------------
+4.	Header 
+----------------------------------
+*/
+
+
+/*------Header Layout------*/
+
+/*Normal display with the gradients*/
+header {
+ background: #4699d2; /* Old browsers */
+ background: -moz-linear-gradient(top, #4699d2 0%, #365f95 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4699d2), color-stop(100%,#365f95)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top, #4699d2 0%,#365f95 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top, #4699d2 0%,#365f95 100%); /* Opera11.10+ */
+ background: linear-gradient(top, #4699d2 0%,#365f95 100%); /* W3C */
+ height: 50px;
+ margin: 0 auto 0 auto;
+}
+
+
+/*------Header Styles------*/
+
+header li {
+ float: left;
+ height: 40px;
+}
+
+header li a {
+ color: #DFDFDF;
+}
+
+p.Header {
+	color: #365f95;
+	display: inline;
+	font-size: 23px;
+	font-weight: normal;
+}
+
+
+/*------Styles for the various states of the buttons------*/
+
+header li a:hover {
+ border-bottom: thin solid #ffffff;
+ color: #FFFFFF;
+}
+
+header li a:active, 
+header li a.selected {
+ border-bottom: thin solid #ffffff;
+ color: #FFFFFF;
+}
+
+
+/*------Border styles for the buttons------*/
+
+header li.borderleft {
+ background-color:#638DC7;
+ height:45px;
+ width:1px;
+}
+
+header li.borderright {
+ background-color:#365f95;
+ height:45px;
+ width:1px;
+}
+
+
+
+
+
+/* 
+----------------------------------
+5.	Content 
+----------------------------------
+*/
+
+#content_wrapper {
+	background-color: #FFFFFF;
+	clear: both;
+	color:#000000;
+	margin: 0 auto;
+	padding: 40px 20px 0 20px;
+	width: 1060px;
+}
+
+#content {
+  background-color:#FFFFFF;
+	margin-right: 40px;
+	width: 1060px;
+}
+
+#bottom_spacer_20 { 
+	clear: both; 
+	font-size: 1px;	
+	height: 20px; 
+	width: 100%; 
+}
+
+
+
+
+
+/* 
+----------------------------------
+6.	Footer 
+----------------------------------
+*/
+
+
+/*------Footer Layout------*/
+
+#footer_wrapper {
+	clear: both;	
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer {
+	background-color: #C3C3C3;
+	border-radius: 0px 0px 6px 6px;
+	padding: 20px 20px;
+	margin: 0 auto;
+	width: 1060px;
+}
+
+
+/*------Footer Styles------*/
+
+footer p {
+	color: black;
+	text-align: justify;
+}
+
+footer a {
+	color:black;
+}
+
+
+
+/* 
+----------------------------------
+7.	Tables 
+----------------------------------
+*/
+
+
+/*------Table Layout------*/
+
+table.aligned_center {
+	text-align: center;
+}
+
+
+/*------Generic Search Table Layout------*/
+.Generic_Search_Table {
+ border-collapse: collapse;
+ margin-left: 0px;
+ table-layout: fixed;
+ width: 1060px;
+}
+
+
+/*------Generic Search Table Styles------*/
+
+.Generic_Search_Table th {
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #A6A6A6;
+ 	border-bottom-width: 2px;
+ 	border-top-style: solid;
+ 	border-top-color: #A6A6A6;
+ 	border-top-width: 1.5px;
+ 	margin: 0 0 0 0;
+ 	padding: 0px 0px 0px 2px;
+	font-size: 14px;
+ 	font-weight: bold;
+}
+
+.Generic_Search_Table td {
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #A6A6A6;
+ 	border-bottom-width: 1.5px;
+	font-size: 11px;
+ 	margin: 0 0 0 0;
+ 	padding: 0px 0px 0px 3px;
+}
+
+
+/*------BLAST Table ------*/
+
+.Blast_Table {
+ 	border-collapse: collapse;
+ 	margin-left: 20px
+}
+
+
+/*------Primers Table Layout------*/
+
+.Primers_Search_Table {
+ 	border-collapse: collapse;
+ 	margin-left: 0px;
+ 	width: 750px;
+}
+
+
+/*------Primers Table Styles------*/
+
+.Primers_Search_Table td {
+ 	border-bottom-style: solid;
+ 	border-bottom-color: #A6A6A6;
+ 	border-bottom-width: 1.5px;
+	font-size: 12px;
+ 	margin: 0 0 0 0;
+ 	padding: 3px 0px 3px 0px;
+}
+
+table.Zebra tbody tr:nth-child(2n) td {
+  background: #DFDDDD;
+}
+
+table.Zebra tbody tr:nth-child(2n+1) td {
+  background: #ccfffff;
+}
+
+table.Zebra tbody tr:hover td {
+ 	 background: #BBBBBB;
+}
+
+td.Center_Mid {
+	text-align: center;
+	word-wrap: break-word;
+}
+
+td.Center {
+	text-align: center;
+	vertical-align: text-top;
+}
+
+td.Justify {
+	text-align: justify;
+	vertical-align: text-top;
+}
+
+td.Left {
+	text-align: left;
+	vertical-align: text-top;
+}
+
+td.Left_Mid {
+	text-align: left;
+	word-wrap: break-word;
+}
+
+p.Center {
+	text-align: center;
+	vertical-align: text-bottom;
+}
+
+p.Left {
+	text-align: left;
+}
+
+/*------Page Numbers Box Layout------*/
+
+input.Input_Right {
+	padding-right: 3px;
+	text-align: right;
+}
+
+table.Search_Bar {
+	margin: 0;
+	padding: 0;
+}
+
+/* export box */
+.export_box {
+  width: 250px; 
+  height: 150px; 
+  padding: 2px;
+  resize:none;
+}
+
+
+/* 
+----------------------------------
+8.	Pagination 
+----------------------------------
+*/
+
+/* For pagination function. */
+ul.pagination {
+    color:#000000; /* text: go to page */
+    text-align:center;
+}
+ul.pagination li {
+    display:inline;
+    padding:0 3px;
+}
+ul.pagination form {
+    display:inline;
+}
+ul.pagination a {
+    border:1px solid #D3EAFB; /* border for the 1,2,3 boxes */
+    color:#000000;  /* text colour inside the boxes */
+    display:inline-block;
+    padding:0px 8px;
+    text-decoration:none;
+}
+ul.pagination a:hover,
+ul.pagination a.current {
+    background:#188BC0; /* hover and the current page colour */
+    color:#fff;
+}
+
+
+
+/* update button and goto input box*/
+.update_button {
+	border:1px solid #D3EAFB; /* border for the 1,2,3 boxes */
+  color:#000000;  /* text colour inside the boxes */
+  padding:2px 8px;
+  background: #FFFFFF;
+}
+
+.goto {
+	border:1px solid #D3EAFB; /* border for the 1,2,3 boxes */
+	padding:2px 0px;
+	text-align: center;
+}
